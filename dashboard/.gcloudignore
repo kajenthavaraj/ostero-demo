@@ -1,0 +1,38 @@
+# This file specifies files that are *not* uploaded to Google Cloud Platform
+# using gcloud. It follows the same syntax as .gitignore, with the addition of
+# "#!include" directives (which insert the entries of the given .gitignore-style
+# file at that point).
+
+# Node.js dependencies
+node_modules/
+
+# Next.js build output (will be rebuilt on App Engine)
+.next/
+
+# Development files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Coverage reports
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# README and documentation (optional, remove if you want them deployed)
+README.md
